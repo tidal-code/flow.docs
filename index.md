@@ -43,7 +43,7 @@ implementation group: 'io.github.tidal-code', name: 'flow', version: '1.0.0'
 ```
 
 <br>
-Please read the [Detailed-Docs]({{ site.url }}/docs/detailed-docs/) section to know more about Tidal.Flow
+Please read the [Detailed-Docs]({{ site.url }}/flow.docs/docs/detailed-docs/) section to know more about Tidal.Flow
 
 <!-- ### Contributing
 
