@@ -31,9 +31,9 @@ relevant String type assertion methods. For Number assertion types it will show 
 For example, if it is String type, it will show
 
 ```java
-    contains(String);
-    startsWith(String);
-    matchesPattern(String);
+    verify("Description", "String").contains(String);
+    verify("Description", "String").startsWith(String);
+    verify("Description", "String").matchesPattern(String);
     ....
     
 ```
@@ -41,11 +41,48 @@ For example, if it is String type, it will show
 For Number type, it will show
 
 ```java
-    isGreaterThan(Number);
-    isPositive();
-    isInRangeOf(Number1, Number2);
+    verify("Description", NUMBER).isGreaterThan(Number);
+    verify("Description", NUMBER).isPositive();
+    verify("Description", NUMBER).isInRangeOf(Number1, Number2);
+    ...
 ```
 
 
+For Array types, it will show
+
+```java
+    verify("Description", ARRAY).hasSize(int);
+    verify("Description", ARRAY).isTypeOf(Class);
+    verify("Description", ARRAY).isEmpty();
+    ....
+```
+
+This is quite intuitive and you don't have to remember different types of assertion methods for each types.
 
 
+## Hard Assertions and Soft Assertions
+
+Hard assertions would terminate the test execution when it fails. In many scenarios that would be the desired effect we needed.
+In certain other situations, we might need to verify a list or group of results and need to know how many passed and how many failed.
+Soft Assertions serve that purpose. 
+
+<br>
+How hard it is to use Soft Assertion with Tidal Flow library? 
+
+Just add ```Soft``` before the verify method. Thats all you need. 
+
+
+For example:
+
+```java
+    Soft.verify("Description", NUMBER).isGreaterThan(Number);
+    Soft.verify("Description", NUMBER).isPositive();
+    Soft.verify("Description", NUMBER).isInRangeOf(Number1, Number2);
+```
+
+<b>NOTE:</b> Soft Assertions need to be thrown later in the test hooks or when test is finished. 
+That setting is entirely up to you to be completed. Soft assertions will not be thrown otherwise.
+<br>
+For more details visit the [Soft Assertions]({{ site.url }}/flow.docs/docs/soft-assertions) page.
+
+We have covered the most important part of the documentation. The further pages show in detail the available methods.
