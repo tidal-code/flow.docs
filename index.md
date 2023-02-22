@@ -6,7 +6,7 @@ description: "Tidal is a test automation library built with Java and Selenium"
 permalink: /
 ---
 
-# A Simple Powerful Assertion Library
+# A Simple Yet Powerful Assertion Library
 {: .fs-9 }
 
 Are you confused by the many assertion libraries and their methods? 
@@ -20,10 +20,10 @@ With Tidal Flow, you only need to remember one assertion method to get the job d
 ### Dependencies
 
 Tidal Flow assertion library is built with Java. This is purely an assertion library, not a testing framework. 
-It is built using core java and no existing assertion library is being used under the hood. 
+It is built using core java and no existing assertion libraries are being used under the hood. 
 
 
-### Add the following Maven dependency to your pom.xml file
+### To start add the following Maven dependency to your pom.xml file
 
 ```xml
         <dependency>
