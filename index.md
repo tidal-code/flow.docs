@@ -2,7 +2,7 @@
 layout: default
 title: Home
 nav_order: 1
-description: "Tidal is a test automation library built with Java and Selenium"
+description: "Tidal Flow is a Java based Fluent Assertion Library"
 permalink: /
 ---
 
