@@ -83,6 +83,6 @@ For example:
 <b>NOTE:</b> Soft Assertions need to be thrown later in the test hooks or when test is finished. 
 That setting is entirely up to you to be completed. Soft assertions will not be thrown otherwise.
 <br>
-For more details visit the [Soft Assertions]({{ site.url }}/flow.docs/docs/soft-assertions) page.
+For more details visit the [Soft Assertions]({{ site.url }}/docs/detailed-docs/soft-assertions) page.
 
 We have covered the most important part of the documentation. The further pages show in detail the available methods.
