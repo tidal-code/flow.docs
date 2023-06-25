@@ -29,7 +29,7 @@ It is built using core java and no existing assertion libraries are being used u
         <dependency>
             <groupId>io.github.tidal-code</groupId>
             <artifactId>flow</artifactId>
-            <version>1.0.0</version>
+            <version>1.1.0</version>
         </dependency>
 ```
 
@@ -39,7 +39,7 @@ Tidal is hosted with [Maven Central](https://mvnrepository.com/artifact/io.githu
 
 For projects using Gradle,
 ```yml
-implementation group: 'io.github.tidal-code', name: 'flow', version: '1.0.0'
+implementation group: 'io.github.tidal-code', name: 'flow', version: '1.1.0'
 ```
 
 <br>

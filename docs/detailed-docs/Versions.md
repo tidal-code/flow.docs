@@ -24,7 +24,7 @@ Maven:
 Gradle:
 
 ```yml
-implementation group: 'io.github.tidal-code', name: 'flow', version: '1.2.0'
+implementation group: 'io.github.tidal-code', name: 'flow', version: '1.1.0'
 ```
 
 
