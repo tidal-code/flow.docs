@@ -19,7 +19,7 @@ title: Tidal. flow
 description: Java based Fluent Assertion Library
 # baseurl: ""
 # baseurl: "flow.docs" # the subpath of the site. This should be uncommented and previous line should be commented while pushing to github repo.
-url: "https://flow.tidalcode.dev" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://flow.tidalcode.dev" #the base hostname & protocol for your site, e.g. http://example.com
 
 permalink: pretty
 exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "README.md", "Rakefile"
@@ -67,8 +67,8 @@ heading_anchors: true
 
 # Aux links for the upper right navigation
 aux_links:
-  "Tidal.flow on GitHub":
-    - "//github.com/tidal-code/flow"
+#   "Tidal.flow on GitHub":
+#     - "//github.com/tidal-code/flow"
 
 # Makes Aux links open in a new tab. Default is false
 aux_links_new_tab: false
